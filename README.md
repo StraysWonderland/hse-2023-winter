@@ -2,5 +2,5 @@
 
 ## 02. October 2023 - Cloud Intro
 
-- Diagrams
-- 
+![Distributed Systems Initial Thoughts](images/distributedsystems.png)
+![Cloud and Distributed Systems](images/cloud_and_systems.png)
