@@ -9,3 +9,7 @@
 In traditional IT (buying and maintaining servers to run operations on) the resources have to be frequently upgraded with the growing workload of users.
 This leads to chronical under-utilization of hardware with expensive purchase periods
 ![Resource Capacities and Utilization](images/resourcecapacities.png)
+
+## 09. October 2023 - Docker Intro
+
+Website: [website](https://hsed.new.trainings.nvtc.io/basics/)
