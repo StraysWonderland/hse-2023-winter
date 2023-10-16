@@ -14,11 +14,14 @@ This leads to chronical under-utilization of hardware with expensive purchase pe
 
 ## 09. October 2023 - Docker Intro
 
-- [website For Exercises (valid until 16.10.23)](https://hsed.new.trainings.nvtc.io/basics/)
+- [website For Exercises](https://hsed.new.trainings.nvtc.io/basics/)
 - [Docker Hub](https://hub.docker.com/)
 - [GitPod](https://www.gitpod.io/)
 
-### NOTE REGARDING EXERCISES: 
+### NOTES REGARDING EXERCISES: 
+
+We have decided to keep the website running throughout the entire semester so you can access and do the docker exercises at any point.
+
 There is at some point a task that mentions connecting to a virtual machine via ssh.
 You can skip this as we will be working either in gitpod or locally but wont have a VM provided to connect to.
 
