@@ -1,5 +1,7 @@
 # hse-2023-winter
 
+## 25. September 2023 - Lecture Canceled
+
 ## 02. October 2023 - Cloud Intro
 
 ![Distributed Systems Initial Thoughts](images/distributedsystems.png)
