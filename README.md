@@ -78,3 +78,31 @@ Following Diagram illustrates how Image creation and layer sharing is handled an
 
 ### Goal of the Lab Exercise
 ![Goal of the Docker Lab Exercise](images/dockertodonet.png)
+
+
+## Docker Advanced Topics:
+### Volumes
+![image](https://github.com/StraysWonderland/hse-2023-winter/assets/22505258/0c1ff9b9-ba50-42d7-9eba-160abb912a72)
+![image](https://github.com/StraysWonderland/hse-2023-winter/assets/22505258/5656078f-e187-4e18-ad20-62b939920ea2)
+
+![Volumes documentation](https://docs.docker.com/storage/volumes/)
+
+### Docker Network
+![image](https://github.com/StraysWonderland/hse-2023-winter/assets/22505258/e5524d0a-cbb5-4bfe-9eb0-eedfba9a3c84)
+
+### Docker Compose
+example docker compose that also creates network
+
+````
+version: '3'
+services:
+  my_service:
+    image: my_image
+    networks:
+      - my_custom_network
+
+networks:
+  my_custom_network:
+    driver: bridge
+
+```
