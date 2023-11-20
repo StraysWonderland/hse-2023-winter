@@ -1,5 +1,16 @@
 # hse-2023-winter
 
+## Lab Requirements
+Microservice project consisting of 3 Microservices:
+- Frontend to visualise data and provide means to store data conviniently in contrast to via curl or postman
+- Backend to process data
+- Database to store data
+
+The services can be in either technology
+Ideally, containerized all 3 microservices.
+Even more ideally, containerized via docker compose
+
+due date?
 ## 25. September 2023 - Lecture Canceled
 
 ## 02. October 2023 - Cloud Intro
