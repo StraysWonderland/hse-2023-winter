@@ -80,7 +80,10 @@ Following Diagram illustrates how Image creation and layer sharing is handled an
 ![Goal of the Docker Lab Exercise](images/dockertodonet.png)
 
 
-## Docker Advanced Topics:
+## 07.11.23 ADvanced Cloud Topics: Cap Theorem, 12 factor apps
+![image](https://github.com/StraysWonderland/hse-2023-winter/assets/22505258/13eceb63-25e6-48a3-b1ee-b2b8bf7b529a)
+
+## 20.11.23 Docker Advanced Topics:
 ### Volumes
 ![image](https://github.com/StraysWonderland/hse-2023-winter/assets/22505258/0c1ff9b9-ba50-42d7-9eba-160abb912a72)
 ![image](https://github.com/StraysWonderland/hse-2023-winter/assets/22505258/5656078f-e187-4e18-ad20-62b939920ea2)
