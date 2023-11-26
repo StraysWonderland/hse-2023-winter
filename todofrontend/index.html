@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <style>
+        /* Add some basic styling if needed */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Todo App</h1>
+
+<!-- Form to create a new todo -->
+<form id="createTodoForm">
+    <label for="todoTitle">New Todo Title: </label>
+    <input type="text" id="todoTitle" required>
+    <button type="submit">Create Todo</button>
+</form>
+
+<!-- List to display existing todos -->
+<h2>Existing Todos</h2>
+<ul id="todoList"></ul>
+
+<script>
+    const apiUrl = 'https://8080-strayswonde-hse23winter-g66or86xqz6.ws-eu106.gitpod.io/todos';
+
+    // Function to fetch and display todos
+    async function fetchAndDisplayTodos() {
+        const response = await fetch(apiUrl);
+        const todos = await response.json();
+
+        const todoListElement = document.getElementById('todoList');
+        todoListElement.innerHTML = '';
+
+        todos.forEach(todo => {
+            const listItem = document.createElement('li');
+            listItem.textContent = `ID: ${todo.id}, Title: ${todo.title}`;
+            todoListElement.appendChild(listItem);
+        });
+    }
+
+    // Function to handle form submission and create a new todo
+    document.getElementById('createTodoForm').addEventListener('submit', async function (event) {
+        event.preventDefault();
+
+        const todoTitle = document.getElementById('todoTitle').value;
+
+        // Send a POST request to create a new todo
+        const response = await fetch(apiUrl + `/${encodeURIComponent(todoTitle)}`, {
+            method: 'POST',
+        });
+
+        if (response.ok) {
+            // If successful, fetch and display the updated todos
+            await fetchAndDisplayTodos();
+        } else {
+            alert('Failed to create todo');
+        }
+    });
+
+    // Fetch and display todos on page load
+    fetchAndDisplayTodos();
+</script>
+
+</body>
+</html>
