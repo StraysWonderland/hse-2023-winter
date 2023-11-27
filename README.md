@@ -96,7 +96,7 @@ Following Diagram illustrates how Image creation and layer sharing is handled an
 ### Docker Compose
 example docker compose that also creates network
 
-````
+```
 version: '3'
 services:
   my_service:
@@ -109,3 +109,18 @@ networks:
     driver: bridge
 
 ```
+## 27.11.23 Kubernetes
+
+### Drawbacks of Docker alone on multiple hosts
+![image](https://github.com/StraysWonderland/hse-2023-winter/assets/22505258/4cae194e-ea30-486d-8d20-8bad88fd494a)
+
+### Comparison to k8s
+![image](https://github.com/StraysWonderland/hse-2023-winter/assets/22505258/a4aae6e8-da77-4f72-b831-38c6514b3f36)
+
+### The Kubeconfig
+![image](https://github.com/StraysWonderland/hse-2023-winter/assets/22505258/fffa5f81-3a3f-4df0-ad10-6e1b954248a0)
+
+### Kubernetes rolling update
+![image](https://github.com/StraysWonderland/hse-2023-winter/assets/22505258/ad5bac21-6390-4362-846b-93425dedeea6)
+
+
