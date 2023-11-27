@@ -1,0 +1,27 @@
+version: '3.7'
+
+services:
+  postgres:
+    image: postgres
+    container_name: postgres
+    environment:
+      POSTGRES_PASSWORD: password
+      POSTGRES_USER: username
+      POSTGRES_DB: testdb
+    ports:
+      - "5432:5432"
+  
+  spring-app:
+    image: hse-23-winter:191123
+    build:
+      context: .
+      dockerfile: todobackend/Dockerfile
+    container_name: your-spring-app-container
+    ports:
+      - "8080:8080"
+    depends_on:
+      - postgres
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/testdb
+      SPRING_DATASOURCE_USERNAME: username
+      SPRING_DATASOURCE_PASSWORD: password
