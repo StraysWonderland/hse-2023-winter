@@ -199,12 +199,14 @@ Links:
 
   Maturity check:
 
+```
 GET http://localhost/pleaseExecuteATask - Get vs. execute, no noun given, execute as pseudo verb in actual URL
 POST http://localhost/tasks/ <properties of the task> -> Level 2
 PUT http://localhost/people/123/age/25 -> looks ok
 POST http://localhost/people/add/matthias/haeussler -> Level 1/2
 POST http://localhost/people/matthias/haeussler -> better :)
 DELETE http://localhost/animals/23 -> Level 2
+```
 
 ## 30-October-2023 Persistence
 
