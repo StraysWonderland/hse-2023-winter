@@ -10,13 +10,20 @@ The services can be in either technology
 Ideally, containerized all 3 microservices.
 Even more ideally, containerized via docker compose
 
-due date?
+Due Date: Exam Date (January 25th)
+
 ## 25. September 2023 - Lecture Canceled
 
 ## 02. October 2023 - Cloud Intro
 
 ![Distributed Systems Initial Thoughts](images/distributedsystems.png)
 ![Cloud and Distributed Systems](images/cloud_and_systems.png)
+
+### Important Slides
+
+- Cloud Pyramid - IaaS, PaaS and SaaS
+- Cloud Definition - "Service Model"
+- Explain "cloud idea" with one cloud service of your choice
 
 ### Resource Capacities and Utilization
 In traditional IT (buying and maintaining servers to run operations on) the resources have to be frequently upgraded with the growing workload of users.
