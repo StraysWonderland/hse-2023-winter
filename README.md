@@ -10,7 +10,8 @@ The services can be in either technology
 Ideally, containerized all 3 microservices.
 Even more ideally, containerized via docker compose
 
-due date?
+Due Date: Exam Date (January 25th)
+
 ## 25. September 2023 - Lecture Canceled
 
 ## 02. October 2023 - Cloud Intro
