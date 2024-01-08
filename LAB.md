@@ -1,0 +1,11 @@
+- Implement a distributed environment with technologies of your choice
+- It should consist of at least 2 application components and 1 backend
+- The backend can be any type of database or messaging system (Postgres, Mongo, Redis, Kafka ...)
+- The application logic is not so important
+- One project can be done by 2 people max
+- The application components need to be in a Docker container format -> Dockerfile for each component is required
+- A docker-compose for the overall app is also required
+- Some kind of documentation would be nice (ChatGPT can be your friend here)
+
+- Focus on observability
+- Use implementation language which is supported by OTel: https://opentelemetry.io/docs/instrumentation/
