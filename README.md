@@ -257,6 +257,28 @@ _The student knows about the evolution of distributed systems (and middleware) a
 
 ## 13-November Resilience
 
+* What is Resilience
+* Resilience in Distributed Systems
+* Typical Problems in distributed Systems
+* Patterns towards Resilience
+    * Retry
+    * Fallback
+    * Timeout
+    * Loadbalancer
+    * Circuit Breaker
+    * Monitoring
+
+### Objectives
+
+_The student understands what errors distributed systems typically face and how to design a more resilient systems through various design patterns.
+No exercise for this module.
+
+### Review questions
+* Explain Resilience in distributed systems
+* How to classify the error types a service might be facing
+* Outline the concept of different resilience patterns
+
+
 ## 20.11.23 Docker Advanced Topics:
 ### Volumes
 ![image](https://github.com/StraysWonderland/hse-2023-winter/assets/22505258/0c1ff9b9-ba50-42d7-9eba-160abb912a72)
