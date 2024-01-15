@@ -233,7 +233,7 @@ _The student is able to build a Spring Boot application (or extend an existing o
 * How could docker compose help if you have a persistence-based application?
 
 
-## 07.11.23 ADvanced Cloud Topics: Cap Theorem, 12 factor apps
+## 07.11.23 Advanced Cloud Topics: Cap Theorem, 12 factor apps
 ![image](https://github.com/StraysWonderland/hse-2023-winter/assets/22505258/13eceb63-25e6-48a3-b1ee-b2b8bf7b529a)
 
 * CAP Theorem
