@@ -422,3 +422,8 @@ The student is able to explain why observability is important and what the chall
   - everything as described in the corresponding section of this document
 * Observability
   - everything as described in the corresponding section of this document
+
+
+### Kubernetes Recap
+![image](https://github.com/StraysWonderland/hse-2023-winter/assets/22505258/93276351-69c2-4ae1-9d57-c3d62bee0494)
+
