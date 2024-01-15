@@ -385,8 +385,6 @@ The student is able to explain why observability is important and what the chall
 ### January 8th and 15th - Recap
 
 ### Student questions:
-- Or should I also know the ins and outs of spring boot and app dev for example? See below.
-- Since you also said that the cheatsheet should not be very useful, it is not allowed to take one, right? WRONG, you are allowed for a 2 sided handwritten cheatsheet
 - Do we have to write any kind of code in the exam? The majority of code-specific questions will be in a review/analysis kind of way. In case of "writing code" questions there will be always the disclaimer that pseudo-code is fine.
 - Are we allowed to use a “digitaly handwritten” cheat sheet - Format DIN A4 max :-) (example: write it with an iPad with Apple Pencil) and print the handwritten sheet for the exam? Yes, but no copies! Cheatsheets must be added to the exam! I will deduct points for violations.
 
