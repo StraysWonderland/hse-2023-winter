@@ -124,7 +124,7 @@ Following Diagram illustrates how Image creation and layer sharing is handled an
 * "Hello, World!" example explained
 * Using Actuator
 
-![Spring Boot Initializr Flow](pics/spring_boot_initializr_flow.png)
+![Spring Boot Initializr Flow](https://raw.githubusercontent.com/maeddes/hft-2022-winter/main/pics/spring_boot_initializr_flow_2022_10_17.png)
 
 ### Objectives
 
