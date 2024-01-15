@@ -1,4 +1,10 @@
 # hse-2023-winter
+## feedback link
+
+Access the following site and please rate this semesters lecture based on the questions in there and feel free to give any textual feedback or improvements on the second page.
+Link will be open untill 22. January
+
+https://www.menti.com/alk94tmqw1j9
 
 ## Lab Requirements
 Microservice project consisting of 3 Microservices:
