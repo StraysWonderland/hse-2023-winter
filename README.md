@@ -155,7 +155,9 @@ Helpful Links:
 
 ## 23-October API and REST
 
-![API](pics/spring_boot_full_and_documented_rest_api_2022_11.png)
+![API](https://github.com/maeddes/hse-2023-summer/blob/main/pics/spring_boot_full_and_documented_rest_api_2022_11.png)
+
+![more API](https://github.com/maeddes/hft-23-winter/raw/main/pics/REST_stuff.png)
 
 * Synchronous communication
 * HTTP and REST
