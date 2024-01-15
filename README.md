@@ -212,7 +212,7 @@ DELETE http://localhost/animals/23 -> Level 2
 
 ## 30-October-2023 Persistence
 
-![Recap 12-factor](pics/12-factor.jpg)
+![Recap 12-factor](https://github.com/maeddes/hft-23-winter/raw/main/pics/12_factor_DB.png)
 
 * Spring Data
 * Concept of entities and repositories
@@ -220,7 +220,7 @@ DELETE http://localhost/animals/23 -> Level 2
 * H2, PostgeSQL, MySQL - configuration via Spring Boot profiles
 * Running databases as Docker images
 
-![Spring Data](pics/spring_data_overview.png)
+![Spring Data](https://github.com/maeddes/hft-2022-winter/raw/main/pics/spring_data_overview.png)
 
 ### Objectives and exercises
 _The student is able to build a Spring Boot application (or extend an existing one) with Spring Data configuration. The exercise is to create an application, which performs CRUD operations on a database backend. The database can either be in-memory (H2) or a (containerized) PostgreSQL. Optional: Provide a docker-compose file to stand up a multi-container environment with application and database._
