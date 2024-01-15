@@ -377,7 +377,7 @@ _The student understands the requirements and expectations towards cloud platfor
 The student is able to explain why observability is important and what the challenges of modern software (e.g. polyglot, distributed microservices) are. The student is able to use OpenTelemetry with auto-configuration to monitor an application, as well as configuring the agent to send the data to a collector. The student is able to read and describe a distributed trace in e.g. Jaeger.
 
 ### Basic OpenTelemetry concept
-![OpenTelemetry basics](pics/Otel_basic.png)
+![OpenTelemetry basics](https://github.com/maeddes/hft-23-winter/raw/main/pics/Otel_basic.png)
 
 ### Alternatives for collection and visualization
-![OpenTelemetry collection alternatives](pics/Open_Telemetry_Alternatives.png)
+![OpenTelemetry collection alternatives](https://github.com/maeddes/hft-23-winter/raw/main/pics/Open_Telemetry_Alternatives.png)
